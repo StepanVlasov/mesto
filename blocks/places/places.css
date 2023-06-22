@@ -1,0 +1,17 @@
+.places {
+    max-width: 880px;
+    margin: 51px auto 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .places {
+        max-width: 282px;
+        margin-top: 36px;
+    }
+}

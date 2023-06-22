@@ -1,0 +1,14 @@
+.profile__account {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    column-gap: 30px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .profile__account {
+        max-width: 282px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}

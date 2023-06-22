@@ -1,0 +1,12 @@
+.place {
+    max-width: 282px;
+    max-height: 361px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+}
