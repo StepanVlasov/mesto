@@ -19,62 +19,63 @@
                     <img  class="profile__avatar" src="./images/JIC.png" alt="Аватар">
                     <div class="profile__info">
                         <h1 class="profile__creator-name">Жак-Ив Кусто </h1>
-                        <button class="profile__edit-button"></button>
+                        <button class="profile__edit-button" type="button"></button>
                         <p class="profile__creator-profession">Исследователь океана</p>
                     </div>
                 </div>
-                <button class="profile__add-button"><img src="./images/addbuttonplus.svg" alt="Кнопка"></button>
+                <button class="profile__add-button" type="button"></button>
             </section>
         
-        
-            <ul class="places">
-                <li class="place"> 
-                    <img src="./images/karachaevsk.png" alt="Карачаевск" class="place__image">
-                    <h2 class="place__title">Карачаевск</h2>
-                    <button class="place__like-button"></button>
-                </li>
-                <li class="place"> 
-                    <img src="./images/Elbrus.png" alt="Эльбрус" class="place__image">
-                    <h2 class="place__title">Гора Эльбрус</h2>
-                    <button class="place__like-button"></button>
-                </li>
-                <li class="place"> 
-                    <img src="./images/Dombai.png" alt="Домбай" class="place__image">
-                    <h2 class="place__title">Домбай</h2>
-                    <button class="place__like-button"></button>
-                </li>
-                <li class="place"> 
-                    <img src="./images/Elbrus.png" alt="Карачаевск" class="place__image">
-                    <h2 class="place__title">Гора Эльбрус</h2>
-                    <button class="place__like-button"></button>
-                </li>
-                <li class="place"> 
-                    <img src="./images/Dombai.png" alt="Домбай" class="place__image">
-                    <h2 class="place__title">Домбай</h2>
-                    <button class="place__like-button"></button>
-                </li>
-                <li class="place"> 
-                    <img src="./images/karachaevsk.png" alt="Карачаевск" class="place__image">
-                    <h2 class="place__title">Карачаево-Черкесия</h2>
-                    <button class="place__like-button"></button>
-                </li>
-            </ul>
+            <section>
+                <ul class="places">
+                    <li class="place"> 
+                        <img src="./images/karachaevsk.png" alt="Карачаевск" class="place__image">
+                        <h2 class="place__title">Карачаевск</h2>
+                        <button class="place__like-button" type="button"></button>
+                    </li>
+                    <li class="place"> 
+                        <img src="./images/Elbrus.png" alt="Эльбрус" class="place__image">
+                        <h2 class="place__title">Гора Эльбрус</h2>
+                        <button class="place__like-button" type="button"></button>
+                    </li>
+                    <li class="place"> 
+                        <img src="./images/Dombai.png" alt="Домбай" class="place__image">
+                        <h2 class="place__title">Домбай</h2>
+                        <button class="place__like-button" type="button"></button>
+                    </li>
+                    <li class="place"> 
+                        <img src="./images/Elbrus.png" alt="Карачаевск" class="place__image">
+                        <h2 class="place__title">Гора Эльбрус</h2>
+                        <button class="place__like-button" type="button"></button>
+                    </li>
+                    <li class="place"> 
+                        <img src="./images/Dombai.png" alt="Домбай" class="place__image">
+                        <h2 class="place__title">Домбай</h2>
+                        <button class="place__like-button" type="button"></button>
+                    </li>
+                    <li class="place"> 
+                        <img src="./images/karachaevsk.png" alt="Карачаевск" class="place__image">
+                        <h2 class="place__title">Карачаево-Черкесия</h2>
+                        <button class="place__like-button" type="button"></button>
+                    </li>
+                </ul>
+            </section>
         </main>
         <footer class="footer">
             <p class="footer__copyright">&copy; 2020 Mesto Russia</p>
         </footer>
 
-        <aside class="popup">
-            <form class="popup__container">
-                <button class="popup__close-button"></button>
+        <div class="popup">
+            <div class="popup__container">
                 <h2 class="popup__title">Редактировать профиль</h2>
-                <input type="text" class="popup__name">
-                <div class="popup__line"></div>
-                <input type="text" class="popup__profession">
-                <div class="popup__line"></div>
-                <button class="popup__save-button">Сохранить</button>
-            </form>
-        </aside>
+                <form class="popup__form" name="form">
+                    <button class="popup__close-button" type="button"></button>
+                    <input type="text" class="popup__input popup__input_type_name" name="popup__name" placeholder="Имя">
+                    <input type="text" class="popup__input popup__input_type_profession" name="popup__profession" placeholder="Профессия">
+                    <button type="submit" class="popup__save-button">Сохранить</button>
+                </form>
+            </div>
+        </div>
     </div>
     <script src="./scripts/script.js"></script>
 </body>
