@@ -1,4 +1,6 @@
 .popup_opened {
-    display: block;
+    display: flex;
+    max-height: 322px;
+    align-items: center;
 }
 

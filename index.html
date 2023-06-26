@@ -11,7 +11,6 @@
     <div class="page">
         <header class="header">
             <img class="header__logo" src="./images/logo.svg" alt="Место">
-            <div class="header__line"></div>
         </header>
         <main>
             <section class="profile">
@@ -26,37 +25,37 @@
                 <button class="profile__add-button" type="button"></button>
             </section>
         
-            <section>
+            <section class="place-list">
                 <ul class="places">
                     <li class="place"> 
                         <img src="./images/karachaevsk.png" alt="Карачаевск" class="place__image">
                         <h2 class="place__title">Карачаевск</h2>
-                        <button class="place__like-button" type="button"></button>
+                        <button class="place__like-button place__like-button_active" type="button"></button>
                     </li>
                     <li class="place"> 
                         <img src="./images/Elbrus.png" alt="Эльбрус" class="place__image">
                         <h2 class="place__title">Гора Эльбрус</h2>
-                        <button class="place__like-button" type="button"></button>
+                        <button class="place__like-button place__like-button_active" type="button"></button>
                     </li>
                     <li class="place"> 
                         <img src="./images/Dombai.png" alt="Домбай" class="place__image">
                         <h2 class="place__title">Домбай</h2>
-                        <button class="place__like-button" type="button"></button>
+                        <button class="place__like-button place__like-button_active" type="button"></button>
                     </li>
                     <li class="place"> 
                         <img src="./images/Elbrus.png" alt="Карачаевск" class="place__image">
                         <h2 class="place__title">Гора Эльбрус</h2>
-                        <button class="place__like-button" type="button"></button>
+                        <button class="place__like-button place__like-button_active" type="button"></button>
                     </li>
                     <li class="place"> 
                         <img src="./images/Dombai.png" alt="Домбай" class="place__image">
                         <h2 class="place__title">Домбай</h2>
-                        <button class="place__like-button" type="button"></button>
+                        <button class="place__like-button place__like-button_active" type="button"></button>
                     </li>
                     <li class="place"> 
                         <img src="./images/karachaevsk.png" alt="Карачаевск" class="place__image">
                         <h2 class="place__title">Карачаево-Черкесия</h2>
-                        <button class="place__like-button" type="button"></button>
+                        <button class="place__like-button place__like-button_active" type="button"></button>
                     </li>
                 </ul>
             </section>
@@ -68,8 +67,8 @@
         <div class="popup">
             <div class="popup__container">
                 <h2 class="popup__title">Редактировать профиль</h2>
+                <button class="popup__close-button" type="button"></button>
                 <form class="popup__form" name="form">
-                    <button class="popup__close-button" type="button"></button>
                     <input type="text" class="popup__input popup__input_type_name" name="popup__name" placeholder="Имя">
                     <input type="text" class="popup__input popup__input_type_profession" name="popup__profession" placeholder="Профессия">
                     <button type="submit" class="popup__save-button">Сохранить</button>

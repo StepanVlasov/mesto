@@ -5,12 +5,12 @@
     color: white;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    
 }
 
-@media screen and (min-width:320px) and (max-width: 767px) {
+@media screen and (min-width:320px) and (max-width: 881px) {
     .profile {
+        max-width: 282px;
         flex-direction: column;
     }
 }

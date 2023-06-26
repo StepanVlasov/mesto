@@ -3,20 +3,24 @@
     width: 150px;
     height: 50px;
     border: 2px solid #fff;
+    margin: 35px 0 0 0;
     cursor: pointer;
     background-image: url(../../../images/addbuttonplus.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 22px 22px;
+    border-radius: 2px;
 }
 
 .profile__add-button:hover {
     opacity: 0.6;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 881px) {
     .profile__add-button {
         width: 282px;
         background-size: 16px 16px;
+        margin-top: 0;
     }
 }
+
