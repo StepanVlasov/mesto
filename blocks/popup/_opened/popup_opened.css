@@ -1,6 +1,6 @@
 .popup_opened {
     display: flex;
-    max-height: 322px;
-    align-items: center;
+    align-items: start;
+    justify-content: center;
 }
 

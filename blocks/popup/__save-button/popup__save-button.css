@@ -4,8 +4,8 @@
     color: white;
     border: 0;
     border-radius: 2px;
-    margin: 48px auto 37px auto;
-    padding: 14px 0 18px 0;
+    margin: 44px auto 37px auto;
+    padding: 14px 0 15px 0;
     font-weight: 400;
     font-size: 1.125em;
     line-height: 1.2;
@@ -18,7 +18,8 @@
 
 @media screen and (max-width: 881px) {
     .popup__save-button {
-        margin-top: 45px;
+        margin-top: 40px;
+        margin-bottom: 25px;
         font-size: 0.875em;
         padding-bottom: 14px;
     }

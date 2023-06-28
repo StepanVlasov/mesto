@@ -8,11 +8,10 @@
     column-gap: 18px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 881px) {
+@media screen and (max-width: 881px) {
     .profile__info {
         max-width: 282px;
         margin: 26px auto 36px auto;
-        row-gap: 14px;
         column-gap: 0px;
     }
 }
