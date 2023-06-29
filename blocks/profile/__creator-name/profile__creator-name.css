@@ -15,7 +15,7 @@
     .profile__creator-name {
         font-size: 1.69em;
         line-height: 1.2;
-        margin: 0 0 0 47px;
+        margin: 0 0 0 auto;
         max-width: 189px;
     }
 }
